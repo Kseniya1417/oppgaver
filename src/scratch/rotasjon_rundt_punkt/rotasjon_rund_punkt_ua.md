@@ -28,8 +28,7 @@ Scratch. Ця фігура схожа на рівнобедрений трику
 - [ ] Видаліть фігуру кота, клацнувши на неї правою кнопкою миші та обравши `видалити`.
 
 - [ ] Додайте нову фігуру. Натисніть на кнопку "Обрати персонаж” ![Velg figur fra
-      biblioteket](../bilder/hent-fra-bibliotek.png)-knappen og velg
-      trollmannshatten. Vi har brukt `Ting/Wizard Hat`-figuren.
+      biblioteket](../bilder/hent-fra-bibliotek.png) -і виберіть капелюх чаклуна. Ми використали фігуру "Троллівський капелюх" `Wizard Hat`
 
 - [ ] Назвіть нову фігуру `Чарівний капелюх`.
 
@@ -139,15 +138,15 @@ Scratch. Ця фігура схожа на рівнобедрений трику
   опустити олівець
   ```
 
-## Test prosjektet {.flag}
+## Тестування проекту {.flag}
 
-- [ ] Trykk pil høyre. Hva skjer?
+- [ ] Натисніть стрілку вправо. Що відбувається?
 
-- [ ] Trykk pil høyre slik at Hattulf kommer tilbake til utgangspunktet. Hvor
-      langt har Venn kommet nå?
+- [ ] Натискайте стрілку вправо, поки `Чарівний капелюх` не
+повернеться у вихідну позицію. Наскільки далеко пішов `Друг`?
 
-- [ ] Hvor mange ganger på du trykke for at Venn kommer tilbake til
-      utgangspunktet?
+- [ ] Скільки разів потрібно натиснути, щоб `Друг` повернувся на вихідну позицію?
 
-- [ ] Klarer du å justere utgangspunktet til Venn, slik at figuren har like lang
-      avstand til origo for hver gang du trykker pil høyre?
+- [ ] Чи можете ви відрегулювати вихідну позицію  `Друг` так, щоб
+персонаж мав однакову відстань до початку координат кожного
+разу, коли ви натискаєте стрілку вправо?
