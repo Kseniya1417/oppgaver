@@ -84,29 +84,30 @@ pазу, коли ви натискаєте зелений прапор безп
 - [ ] Посередині у верхній частині екрана є текстове поле, де ви
 можете дати назву своїй грі. Назвіть це, наприклад `Пенальті`.
 
-- [ ] I menyen `Fil` kan du velge `Lagre nå` for å lagre prosjektet.
+- [ ] В меню `Філ` ви можете вибрати `Зберегти зараз` щоб зберегти проект.
 
 
-# Steg 2: Vi sparker ballen {.activity}
+# Крок 2: Б’ємо по м’ячу {.activity}
 
-*Det neste vi trenger i spillet vårt er en ball!*
+*Наступне, що нам знадобиться в нашій грі, це м'яч!*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Vi skal nå legge til en ball-figur i spillet vårt. Klikk på
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
-  og velg fotballen `Sport/Soccer Ball`.
+- [ ] Зараз ми збираємося додати фігурку м’яча до нашої гри. Натисніть на
+  ![Вибери фігуру з бібліотеки](../bilder/hent-fra-bibliotek.png)
+  і вибрати футбол `Спорт / футбольний м'яч`.
 
-- [ ] Gi fotballen navnet `Ball`.
+- [ ] Назвіть футбол `М'яч`.
 
-- [ ] Gjør ballen mindre ved først å trykke på `Størrelse` feltet, og
-  endre tallet fra 100 til 60.
+- [ ] Зменшіть кульку, спочатку натиснувши `Розмір` і змініть число зі 100 на 60.
 
-- [ ] Vi skal nå skrive et litt lengre program for ballen. I dette programmet legger
-  vi først fotballen på plass foran katten. Etter at ballen berører
-  `Leo` (det vil si `Leo` sparker ballen) begynner ballen å bevege
-  seg. Se om du kjenner igjen hvor i programmet de forskjellige
-  tingene skjer:
+- [ ] Зараз ми напишемо трохи довшу програму для м'яча. У цій
+програмі ми спочатку ставимо футбольний м’яч перед котом.
+Після торкання м'яча
+  `Лео` (тобто `Leo` б’є м’яч) м’яч починає
+рухатися. Подивіться, чи впізнаєте ви, де в програмі
+відбуваються різні речі:
+
 
   ```blocks
   når grønt flagg klikkes
