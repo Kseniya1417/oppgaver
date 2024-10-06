@@ -102,37 +102,41 @@ Scratch. Ця фігура схожа на рівнобедрений трику
   поворот @turnRight на (90) градусів
   ```
 
-## Test prosjektet {.flag}
+## Тестування проекту {.flag}
 
-- [ ] Trykk tasten "pil høyre" på tastaturet. Hva skjer? Fortsett til Hattulf er
-      tilbake ved startpunktet sitt.
+- [ ] Натисніть клавішу "стрілка вправо" на клавіатурі. Що відбувається? Продовжуйте, поки `Чарівного капелюха` не
+повернеться у початкове положення.
+- [ ] Якщо ви поглянете на код, який ми щойно створили для `Чарівного капелюха`, то побачите, що ми вказуємо
+      `Чарівному капелюху` пройти 200 кроків. Чому ми маємо задаємо саме таку відстань?
 
-- [ ] Hvis du studerer koden vi nettopp laget til Hattulf, ser du at vi ber
-      Hattulf gå 200 steg. Hvorfor må vi gå så langt?
+- [ ] Спробуйте змінити кількість кроків, які проходить `Чарівний
+капелюх`. Чи повертається `Чарівний капелюх` на те саме місце
+після того, як ви натиснете "стрілку вправо" чотири рази?
 
-- [ ] Prøv å endre på antall steg Hattulf tar. Ender Hattulf opp på samme sted
-      som han startet etter at du har trykket "pil høyre" fire ganger?
+# Крок 4: Новий друг! {.activity}
 
+- [ ] Додайте нового персонажа. Цього разу ви можете вибрати
+персонажа самостійно. Якщо він буде більшого розміру
+порівняно з `Чарівним капелюхом`, ви можете зменшити
+персонажа до відповідного розміру. Назвіть нового персонажа
+`Друг`.
 
-# Steg 4: En ny venn! {.activity}
+- [ ] Скопіюйте скрипт "Коли клавішу N натиснути" від `Чарівного
+капелюха` до `Друга`, але змініть значення для y із 100 на 50.
 
-- [ ] Legg til en ny figur. Denne gangen skal du få velge figur selv. Hvis den
-      blir veldig stor i forhold til alt det andre, kan du krympe den ned til en
-      passelig størrelse. Kall den nye figuren for "Venn"
+- [ ] Також скопіюйте скрипт “Коли клавішу стрілка праворуч
+натиснуто” від `Чарівного капелюха`, але зменшіть вдвічі кількість
+кроків і градусів у скрипті.
 
-- [ ] Lag en kopi av "Når N trykkes"-skriptet fra Hattulf til Venn, men endre
-      y-verdien til 50.
-
-- [ ] Kopier også over "Når pil høyre trykkes"-skriptet fra Hattulf, men halver
-      både antall steg og antall grader i skriptet.
-
-- [ ] For litt mer moro kan du legge til en linje med kode som skrur på
-      `pennen`{.blockpen} for begge figurene. Øverste del av pil høyre-skriptet
-      skal da se slik ut:
+- [ ] Щоб було веселіше додайте рядок коду, який вмикає
+      `олівець`{.blockpen} для обох фігур. Якщо ви не активували інструмент олівець,
+      зробіть це, натиснувши "Додати розширення" - "Олівець".
+      Верхня частина скрипту "Коли клавішу стрілка праворуч
+      натиснуто" повинна виглядати так:
 
   ```blocks
-  når [pil høyre v] trykkes
-  penn på
+  коли клавішу [стрілка праворуч v] натиснуто
+  опустити олівець
   ```
 
 ## Test prosjektet {.flag}
