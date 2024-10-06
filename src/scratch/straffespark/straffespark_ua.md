@@ -57,26 +57,32 @@ __Натисніть на зелений прапорець.__
 який ви вже створили, який виглядає отак:
 
   ```blocks
-  коли grønt flagg натиснуто
+  коли @greenFlag натиснуто
   перейти до x: (-180) y: (-30)
   ```
 
    ```blocks
   коли grønt flagg натиснуто
   перейти до x: (-125) y: (-60)
+  почекай <порухай [Лео v] ?>
+  завжди
+  перейти (6) кроків
+     slutt
+   slutt
+
   ```
+- [ ]  Тепер буде `Лео` повертайтеся на правильний шлях кожного
+pазу, коли ви натискаєте зелений прапор безпосередньо над
+сценою.
 
-- [ ] Nå vil `Leo` komme tilbake på banen hver gang du klikker det grønne
-  flagget rett over scenen.
+## Збережіть проект {.save}
 
-## Lagre prosjektet {.save}
+Тепер ви написали невелику програму! Scratch зберігає все, що ви 
+періодично робите. Час від часу економити залишається хорошою 
+звичкою.
 
-Du har nå skrevet et lite program! Scratch lagrer alt du gjør med
-jevne mellomrom. Det er likevel en god vane å lagre selv også
-innimellom.
-
-- [ ] På midten øverst på skjermen er det et tekstfelt hvor du kan gi et navn til spillet
-  ditt. Kall det for eksempel `Straffespark`.
+- [ ] Посередині у верхній частині екрана є текстове поле, де ви
+можете дати назву своїй грі. Назвіть це, наприклад `Пенальті`.
 
 - [ ] I menyen `Fil` kan du velge `Lagre nå` for å lagre prosjektet.
 
