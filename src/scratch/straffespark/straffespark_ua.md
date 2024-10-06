@@ -28,37 +28,42 @@ language: ua
 - [ ] Натисніть на ![Виберіть новий фон](../bilder/velg-bakgrunn.png) у нижньому правому куті екрана, щоб
 додати новий фон. Виберіть фон `Спорт/футбол 2`.
 
-- [ ] Зараз ми напишемо невелику програму, яка пересуває кота `Лео` når vi
-  klikker på ham. Klikk på `Leo` i figurvinduet nederst på skjermen. 
-  Pusle deretter sammen de følgende klossene i skriptvinduet
-  i midten av skjermen:
+- [ ] Зараз ми напишемо невелику програму, яка пересуває кота
+`Лео` коли ми натискаємо на нього. Натисніть на `Лео` у вікні фігури внизу екрана.
+ Потім у вікні сценарію в центрі екрана складіть
+ разом такі кубики:
 
   ```blocks
-  når denne figuren klikkes
-  gå (10) steg
+  коли натиснуто цю фігуру
+  пройдіть (10) кроків
   ```
 
-## Test prosjektet {.flag}
+## Тестуйте проект {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Flytter `Leo` på seg når du klikker på ham?
+- [ ] Переїзд `Лео` носити, коли ви натискаєте на нього?
 
-- [ ] Hva skjer om du klikker mange ganger på `Leo` slik at han når bort
-  til kanten av scenen?
+- [ ] Що станеться, якщо натиснути багато разів `Leo` щоб він
+дотягнувся до краю сцени?
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Du kan flytte `Leo` tilbake på skjermen ved å trykke på ham og dra
-  ham dit du vil.
+- [ ] Ви можете рухатися `Лео` повернутися на екран, торкнувшись
+його та перетягнувши куди потрібно.
 
-- [ ] Vi vil likevel programmere en enklere måte å få `Leo` tilbake på
-  banen på. Lag et **nytt** skript, **ved siden av** det du allerede
-  har laget, som ser slik ut:
+- [ ] Проте ми запрограмуємо простіший спосіб отримання `Лео`
+назад в поле. Створіть один **новий** сценарій, **поруч** з тим,
+який ви вже створили, який виглядає отак:
 
   ```blocks
-  når grønt flagg klikkes
-  gå til x: (-180) y: (-30)
+  коли grønt flagg натиснуто
+  перейти до x: (-180) y: (-30)
+  ```
+
+   ```blocks
+  коли grønt flagg натиснуто
+  перейти до x: (-125) y: (-60)
   ```
 
 - [ ] Nå vil `Leo` komme tilbake på banen hver gang du klikker det grønne
